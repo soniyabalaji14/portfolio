@@ -73,10 +73,10 @@
 		</ul>
 	</div>
 
-	<div class="container" style="border: solid rgba(100, 255, 218, 1);">
+	<div class="container">
 		<div class="row">
 			<!-- intro -->
-			<div class="col-lg-8 intro">
+			<div class="col-lg-12 intro">
 				<div class="intro1">Hey there!,I'm</div>
 				<div class="intro2">Soniya Balaji</div>
 				<div class="intro3">Software Developer.</div>
@@ -87,13 +87,10 @@
 					together!
 				</div>
 			</div>
-			<div class="col-lg-4 intro">
-				<img src="img/image.gif" class="img-thumbnail" alt="image">
-			</div>
 			<!-- about -->
-			<div class="col-lg-8 about">
+			<div class="col-lg-8 about pt-5" id="about">
 				<h3><span class="intro1">01.</span><b>About Me</b></h3>
-				<hr>
+				<hr class="hr1">
 				<p class="intro4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt laudantium, labore
 					reprehenderit magni
 					similique praesentium adipisci? Earum laborum sapiente consectetur obcaecati amet, perspiciatis
@@ -104,46 +101,91 @@
 					porro aperiam
 					esse architecto perferendis.
 				</p>
-
-					<nav class="nav nav-pills flex-column">
-						<a class="nav-link" href="#education">Education</a>
-						<a class="nav-link" href="#experience">Experience</a>
-						<a class="nav-link" href="#skills">Skills</a>
-					</nav>
-
-				<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
-					<h4 id="item-1">Item 1</h4>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam voluptas modi aliquam!
-						Necessitatibus quas aliquam vitae non praesentium laudantium similique earum minus totam
-						laboriosam repellat architecto vel, amet a.</p>
-					<h5 id="item-1-1">Item 1-1</h5>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam voluptas modi aliquam!
-						Necessitatibus quas aliquam vitae non praesentium laudantium similique earum minus totam
-						laboriosam repellat architecto vel, amet a.</p>
-					<h5 id="item-1-2">Item 1-2</h5>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae ullam voluptas modi aliquam!
-						Necessitatibus quas aliquam vitae non praesentium laudantium similique earum minus totam
-						laboriosam repellat architecto vel, amet a.</p>
-					<h4 id="item-2">Item 2</h4>
-					<p>...</p>
-					<h4 id="item-3">Item 3</h4>
-					<p>...</p>
-					<h5 id="item-3-1">Item 3-1</h5>
-					<p>...</p>
-					<h5 id="item-3-2">Item 3-2</h5>
-					<p>...</p>
+				<div class="row">
+					<div class="col-lg-3">
+						<div id="list-example" class="list-group">
+							<a class="list-group-item list-group-item-action" href="#list-item-1">Education</a>
+							<a class="list-group-item list-group-item-action" href="#list-item-2">Experience</a>
+							<a class="list-group-item list-group-item-action" href="#list-item-3">Skills</a>
+							<a class="list-group-item list-group-item-action" href="#list-item-4">Extra</a>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+							class="scrollspy-example" tabindex="0">
+							<h4 id="list-item-1">Education</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium distinctio, maiores
+								cupiditate numquam, soluta ratione quae autem similique doloribus velit omnis laudantium
+								fugit repudiandae culpa temporibus vel eligendi aut. Saepe.</p>
+							<h4 id="list-item-2">Experience</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias illo deserunt
+								facilis ex voluptates labore dignissimos qui vero voluptatem, aut, velit porro eum id ad
+								distinctio blanditiis. Dignissimos, quidem.</p>
+							<h4 id="list-item-3">Skills</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias illo deserunt
+								facilis ex voluptates labore dignissimos qui vero voluptatem, aut, velit porro eum id ad
+								distinctio blanditiis. Dignissimos, quidem.</p>
+							<h4 id="list-item-4">Extra</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias illo deserunt
+								facilis ex voluptates labore dignissimos qui vero voluptatem, aut, velit porro eum id ad
+								distinctio blanditiis. Dignissimos, quidem.</p>
+						</div>
+					</div>
 				</div>
+
 
 			</div>
 			<div class="col-lg-4 about about_photo">
 				<div class="photo">
 					<img src="img/profilephoto.jpg" class="img-thumbnail" alt="image">
 				</div>
+			</div>
 
+			<!-- projects-->
+			<h3><span class="intro1">02.</span><b>Things I Have Built</b></h3>
+			<hr>
+			<div class="col-lg-4 project d-flex align-items-stretch" id="project">
+				<div class="card" style="width: 18rem;">
+					<img src="img/background.jpg" class="card-img-top" alt="...">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>E-Marketplace</b><i class="fa-brands fa-github float-end"></i></h5>
+
+						<p class="card-text">E-Marketplace for students where they can buy sell and rent study gear </p>
+						<p class="card-text"><small
+								class="text-muted">HTML&nbsp;CSS&nbsp;JS&nbsp;PHP&nbsp;PHPMYADMIN</small></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 project d-flex align-items-stretch">
+				<div class="card" style="width: 18rem;">
+					<img src="img/background.jpg" class="card-img-top" alt="...">
+					<div class="card-body d-flex flex-column">
+						<h5 class="card-title"><b>Forums</b><i class="fa-brands fa-github float-end"></i></h5>
+
+						<p class="card-text">Forums Portol where people can ask and share their doubts</p>
+						<p class="card-text"><small
+								class="text-muted">HTML&nbsp;CSS&nbsp;JS&nbsp;PHP&nbsp;PHPMYADMIN</small></p>
+					</div>
+				</div>
+			</div>
+			<!-- Contact -->
+
+			<div class="col-lg-12 contact" id="contact">
+				<h3 class="intro1"><span>03.</span><b>Whats Next?</b></h3>
+				<h4 class="intro2">Get In Touch</h4>
+				<p>Im currently seeking Opprotunity to work my inbox is always open. Whether you have a question or just
+					want to say hi, I’ll try my best to get back to you!</p>
+				<a class="btn resume" href="#" role="button" class="nav_links"><span class="indexno_nav_links">Say
+						Hello</span></a>
 			</div>
 
 		</div>
 
+	</div>
+	<!-- footer -->
+	<div class="footer align-item-center">
+		<div class="intro1">Built by Soniya </div>
+	</div>
 
 	</div>
 	</div>

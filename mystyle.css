@@ -162,12 +162,37 @@ color: rgba(136, 146, 176, 1);
 {
     color: rgba(204, 214, 246, 1);
 }
-.intro,.about
+.intro,.about,.contact
 {
     height: 100vh;
 }
-.about h3
+.about h3,.project h3
 {
     color:  rgba(136, 146, 176, 1);
+}
+.card
+{
+    background-color: #112240;
+    color: white;
+    transition: transform 0.4s ease-in-out;
+}
+.text-muted,.card-text
+{
+    color:rgba(136, 146, 176, 1) ;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    color: rgba(100, 255, 218, 1);
+}
+.about  b
+{
+    color: rgba(204, 214, 246, 1);
+}
+.hr1
+{
+    position: relative;
+    margin-left: 180px;
+    margin-top: -25px;
 }
 
